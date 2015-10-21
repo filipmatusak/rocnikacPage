@@ -1466,3 +1466,317 @@ Copy resource mappings:
 Total time: 2 s, completed 22.10.2015 0:02:12
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6dae4cfb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 5357c59a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: illegal start of simple expression
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: illegal start of simple expression
+Read from stdout: @for(i <- 10) yield <p>fdfdf</p>
+        @for(i <- 10) yield <p>fdfdf</p>
+Read from stdout: ^
+                     ^
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:16: ')' expected but '}' found.
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:16: ')' expected but '}' found.
+Read from stdout: </html>
+</html>
+Read from stdout: ^
+       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed 22.10.2015 0:08:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@457a48e8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 37c79cfb, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: value map is not a member of Int
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: value map is not a member of Int
+Read from stdout: @for(i <- 10) {<p>fdfdf</p> }
+        @for(i <- 10) {<p>fdfdf</p> }
+Read from stdout: ^
+                  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed 22.10.2015 0:08:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@41e0ac04, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 26b80fa, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 1.55190495 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/application.conf,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/application.conf)
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/logback.xml,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/logback.xml)
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/routes,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/routes)
+Total time: 2 s, completed 22.10.2015 0:08:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@32aba058, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3232e806, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: illegal start of simple expression
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: illegal start of simple expression
+Read from stdout: @main(@content)
+        @main(@content)
+Read from stdout: ^
+              ^
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:16: ')' expected but '}' found.
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:16: ')' expected but '}' found.
+Read from stdout: </html>
+</html>
+Read from stdout: ^
+       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed 22.10.2015 0:09:59
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1dd2fd9a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 39828cb0, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Read from stdout: /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: reference to main is ambiguous;
+Read from stdout: it is both defined in package html and imported subsequently by 
+Read from stdout: import views.html._
+/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/app/views/main.scala.html:14: reference to main is ambiguous;
+it is both defined in package html and imported subsequently by 
+import views.html._
+Read from stdout: @main(content)
+        @main(content)
+Read from stdout: ^
+         ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed 22.10.2015 0:10:27
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4a63b0ae, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/twirl/main/views/html/main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Compiling 1 Scala source to /media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler f1696cd, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/filip/Activator/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes:/home/filip/Activator/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar:/home/filip/Activator/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/filip/Activator/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/filip/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/filip/Activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/filip/Activator/repository/joda-time/joda-time/2.8.1/jars/joda-time.jar:/home/filip/Activator/repository/org.joda/joda-convert/1.7/jars/joda-convert.jar:/home/filip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-annotations/2.5.4/bundles/jackson-annotations.jar:/home/filip/Activator/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.5.4/bundles/jackson-datatype-jdk8.jar:/home/filip/Activator/repository/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.5.4/bundles/jackson-datatype-jsr310.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/filip/Activator/repository/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar:/home/filip/Activator/repository/org.slf4j/jul-to-slf4j/1.7.12/jars/jul-to-slf4j.jar:/home/filip/Activator/repository/org.slf4j/jcl-over-slf4j/1.7.12/jars/jcl-over-slf4j.jar:/home/filip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/filip/Activator/repository/ch.qos.logback/logback-core/1.1.3/jars/logback-core.jar:/home/filip/Activator/repository/ch.qos.logback/logback-classic/1.1.3/jars/logback-classic.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/filip/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/filip/Activator/repository/commons-codec/commons-codec/1.10/jars/commons-codec.jar:/home/filip/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/filip/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/filip/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/filip/Activator/repository/com.google.inject/guice/4.0/jars/guice.jar:/home/filip/Activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar:/home/filip/Activator/repository/aopalliance/aopalliance/1.0/jars/aopalliance.jar:/home/filip/Activator/repository/com.google.inject.extensions/guice-assistedinject/4.0/jars/guice-assistedinject.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/filip/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/filip/Activator/repository/com.typesafe.netty/netty-http-pipelining/1.1.4/jars/netty-http-pipelining.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/filip/Activator/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/home/filip/Activator/repository/com.zaxxer/HikariCP/2.3.7/bundles/HikariCP.jar:/home/filip/Activator/repository/com.h2database/h2/1.4.187/jars/h2.jar:/home/filip/Activator/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/filip/Activator/repository/net.sf.ehcache/ehcache-core/2.6.11/jars/ehcache-core.jar:/home/filip/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/filip/Activator/repository/com.google.guava/guava/18.0/bundles/guava.jar:/home/filip/Activator/repository/com.ning/async-http-client/1.9.21/jars/async-http-client.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/filip/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/home/filip/Activator/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/home/filip/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 1.246805173 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/application.conf,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/application.conf)
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/logback.xml,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/logback.xml)
+	(/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/conf/routes,/media/filip/Windows/Users/ntb1/Programovanie/rocnikovyProjekt/rocnikacPage/target/scala-2.11/classes/routes)
+Total time: 2 s, completed 22.10.2015 0:10:49
+> server-post-command-cleanup
+> server-handle-next-server-request
